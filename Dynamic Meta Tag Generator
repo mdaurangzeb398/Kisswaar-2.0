@@ -1,0 +1,3 @@
+// For web (React/Next.js/HTML):
+<title>{product.name} | Kisswaar</title>
+<meta name="description" content={`${product.description} - Tags: ${product.tags.join(', ')}`} />
