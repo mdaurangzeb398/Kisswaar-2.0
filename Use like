@@ -1,0 +1,3 @@
+SchedulePostTimer.schedulePost(Duration(hours: 2), () {
+  PlatformShareService.postToAllPlatforms(mediaPath, caption);
+});
