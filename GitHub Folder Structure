@@ -1,0 +1,4 @@
+kisswaar-app/
+├── lib/
+│   └── services/
+│       └── social_auto_poster.dart ← paste here
