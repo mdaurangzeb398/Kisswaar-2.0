@@ -1,0 +1,6 @@
+ElevatedButton(
+  onPressed: WalletGuardLogic.isEligibleForWithdrawal(userWallet)
+      ? () => withdrawNow()
+      : null, // disables button if funds are not valid
+  child: Text("Withdraw to Bank"),
+)
