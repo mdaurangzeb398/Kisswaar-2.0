@@ -1,0 +1,1 @@
+Navigator.pushNamed(context, '/romantic/$slug');
