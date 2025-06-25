@@ -1,0 +1,8 @@
+kisswaar-app/
+├── web/
+│   ├── manifest.json
+│   ├── icons/
+│   │   ├── icon-192.png
+│   │   └── icon-512.png
+│   ├── pwa_install.js      ← paste here
+│   └── index.html          ← add button & script here
