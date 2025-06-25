@@ -1,0 +1,5 @@
+if (p.source == 'cj') {
+  CJDropshipService.forwardOrder(p);
+} else if (p.source == 'temu') {
+  TemuAPI.forwardOrder(p);
+}
