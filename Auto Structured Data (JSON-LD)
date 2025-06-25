@@ -1,0 +1,15 @@
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "name": "Romantic Perfume Gift",
+  "description": "Perfect for anniversaries and Valentine's Day.",
+  "brand": "Kisswaar",
+  "offers": {
+    "@type": "Offer",
+    "price": "799",
+    "priceCurrency": "INR",
+    "availability": "InStock"
+  }
+}
+</script>
