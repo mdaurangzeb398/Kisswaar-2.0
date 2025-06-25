@@ -1,0 +1,11 @@
+KisswaarPayButton(
+  onPressed: () {
+    // Yahan se payment start hoti hai
+    _pay.payNow(
+      amount: 799,
+      name: "Romantic Gift Box",
+      contact: "9876543210",
+      email: "md@kisswaar.in",
+    );
+  },
+)
