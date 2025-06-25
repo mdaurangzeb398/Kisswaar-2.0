@@ -1,0 +1,21 @@
+class KisswaarPaymentManager {
+  final Razorpay _razorpay = Razorpay();
+
+  void payNow(...) {
+    var options = {
+      'key': 'rzp_test_xxxx',     // Razorpay Key
+      'amount': amount * 100,     // 799 x 100 = 79900 paise
+      'name': 'Kisswaar',
+      ...
+    };
+    _razorpay.open(options);  // Actual payment screen open hoti hai
+  }
+
+  void _handleSuccess(...) {
+    // ✅ Success page dikhao
+  }
+
+  void _handleError(...) {
+    // ❌ Failed message dikhao
+  }
+}
