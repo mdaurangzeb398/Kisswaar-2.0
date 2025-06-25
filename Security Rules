@@ -1,0 +1,3 @@
+match /wallets/{userId} {
+  allow read, write: if request.auth.uid == userId;
+}
