@@ -1,0 +1,25 @@
+// 📄 lib/widgets/kisswaar_pay_button.dart
+
+import 'package:flutter/material.dart';
+
+class KisswaarPayButton extends StatelessWidget {
+  final VoidCallback onPressed;
+
+  const KisswaarPayButton({super.key, required this.onPressed});
+
+  @override
+  Widget build(BuildContext context) {
+    return ElevatedButton.icon(
+      onPressed: onPressed,
+      icon: Image.asset('assets/icons/kisswaar_logo.png', height: 20),
+      label: const Text('Pay via Kisswaar'),
+      style: ElevatedButton.styleFrom(
+        backgroundColor: Colors.deepPurple,
+        foregroundColor: Colors.white,
+        padding: const EdgeInsets.symmetric(horizontal: 20, vertical: 14),
+        textStyle: const TextStyle(fontWeight: FontWeight.bold, fontSize: 16),
+        shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(12)),
+      ),
+    );
+  }
+}
