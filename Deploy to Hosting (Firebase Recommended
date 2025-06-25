@@ -1,0 +1,5 @@
+firebase login  
+firebase init hosting  
+# select project & set public directory to "build/web"
+
+firebase deploy
