@@ -1,0 +1,8 @@
+void onProductAdded(ProductItem product) async {
+  final media = product.video ?? await ReelVideoGenerator.generate(product.image, product.name, product.tags);
+  final caption = generateCaption(product);
+
+  SchedulePostTimer.schedulePost(Duration(minutes: 5), () {
+    PlatformShareService.postToAllPlatforms(media, caption);
+  });
+}
