@@ -1,0 +1,5 @@
+class SocialAutoPoster {
+  static void post(String message, String imagePath) {
+    // logic to post on Insta, FB, etc.
+  }
+}
