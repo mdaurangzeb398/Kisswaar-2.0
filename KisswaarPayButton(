@@ -1,0 +1,13 @@
+KisswaarPayButton(
+  onPressed: () {
+    Razorpay razorpay = Razorpay();
+    var options = {
+      'key': 'rzp_test_xxxxxx',
+      'amount': 79900,
+      'name': 'Kisswaar',
+      'description': 'Romantic Perfume Gift',
+      'prefill': {'contact': '9999999999', 'email': 'md@example.com'}
+    };
+    razorpay.open(options);
+  },
+)
