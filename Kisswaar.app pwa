@@ -1,0 +1,10 @@
+kisswaar-app/
+├── lib/
+│   └── main.dart
+├── web/
+│   ├── index.html
+│   ├── manifest.json
+│   ├── pwa_install.js
+│   └── icons/
+│       ├── icon-192.png
+│       └── icon-512.png
