@@ -1,6 +1,11 @@
 {
   "hosting": {
-    "public": "web",
-    "ignore": ["firebase.json", "**/.*", "**/node_modules/**"]
+    "public": ".",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ]
   }
 }
+added firebase.json to fix deploy error
