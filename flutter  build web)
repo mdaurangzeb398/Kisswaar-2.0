@@ -34,3 +34,6 @@ jobs:
           channelId: live
           projectId: kisswaar-5c76f
           entryPoint: web
+          run: |
+  rm -rf web/*
+  cp -r build/web/* web/
