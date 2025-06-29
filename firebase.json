@@ -1,0 +1,7 @@
+{
+  "hosting": {
+    "public": "web",
+    "ignore": ["firebase.json", "**/.*", "**/node_modules/**"]
+  }
+}
+created firebase.json for deploy config
