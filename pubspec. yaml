@@ -1,6 +1,6 @@
 name: kisswaar
-description: A new Flutter project
-publish_to: 'none'
+description: A fast e-commerce PWA built with Flutter
+publish_to: 'none'  # This means you're not publishing to pub.dev
 
 environment:
   sdk: ">=2.17.0 <4.0.0"
