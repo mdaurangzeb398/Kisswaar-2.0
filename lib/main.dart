@@ -1,3 +1,4 @@
+// File: lib/main.dart
 import 'package:flutter/material.dart';
 
 void main() => runApp(const KisswaarApp());
@@ -11,7 +12,12 @@ class KisswaarApp extends StatelessWidget {
       title: 'Kisswaar 💘',
       home: Scaffold(
         appBar: AppBar(title: const Text('Kisswaar 💘')),
-        body: const Center(child: Text('Welcome to Kisswaar!')),
+        body: const Center(
+          child: Text(
+            'Welcome to Kisswaar!',
+            style: TextStyle(fontSize: 24),
+          ),
+        ),
       ),
     );
   }
