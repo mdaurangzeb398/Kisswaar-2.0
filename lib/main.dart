@@ -1,13 +1,14 @@
 import 'package:flutter/material.dart';
 
-void main() => runApp(const MyApp());
+void main() => runApp(const KisswaarApp());
 
-class MyApp extends StatelessWidget {
-  const MyApp({super.key});
+class KisswaarApp extends StatelessWidget {
+  const KisswaarApp({super.key});
+
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Kisswaar',
+      title: 'Kisswaar 💘',
       home: Scaffold(
         appBar: AppBar(title: const Text('Kisswaar 💘')),
         body: const Center(child: Text('Welcome to Kisswaar!')),
