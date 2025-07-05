@@ -4,9 +4,7 @@
   "start_url": "/",
   "display": "standalone",
   "background_color": "#ffffff",
-  "theme_color": "#9c27b0",
-  "orientation": "portrait",
-  "description": "Mood-based shopping with Kisswaar",
+  "theme_color": "#6200EE",
   "icons": [
     {
       "src": "icons/icon-192.png",
